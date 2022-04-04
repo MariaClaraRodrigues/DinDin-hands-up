@@ -1,0 +1,51 @@
+.container {
+  margin: 0 auto;
+  width: 1050px;
+}
+
+.titulo-principal {
+  font-size: 55px;
+  width: 15ch;
+  padding-bottom: 22px;
+}
+
+.p-principal {
+  width: 40ch;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flexs;
+  align-items: center;
+  color: #000000;
+}
+
+.video-aula {
+  margin-bottom: 75px;
+}
+
+.video {
+  width: 462px;
+  height: 261px;
+  background-color: #8e8e8e;
+  display: inline-block;
+}
+
+.conteudo {
+  float: right;
+}
+
+.aula {
+  font-size: 35px;
+  line-height: 40px;
+  padding-bottom: 26px;
+}
+
+.sobre-aula {
+  width: 40ch;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}

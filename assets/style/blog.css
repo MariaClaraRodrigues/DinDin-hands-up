@@ -1,0 +1,45 @@
+.secao-mais-conteudo {
+  margin-top: 89px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.titulo-principal-blog {
+  color: #009688;
+  font-size: 47px;
+  width: 15ch;
+  padding-bottom: 40px;
+}
+
+.p-principal {
+  width: 40ch;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+}
+
+.quadrado-cinza {
+  width: 518px;
+  height: 259px;
+  background-color: #c4c4c4;
+  margin-bottom: 19px;
+}
+
+.a-rosa {
+  color: #ff4081;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.p-conteudo {
+  padding-top: 19px;
+  padding-bottom: 100px;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000;
+  width: 55ch;
+}

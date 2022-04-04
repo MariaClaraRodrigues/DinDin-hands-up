@@ -1,0 +1,81 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 5.063rem 0;
+}
+
+.titulo.principal {
+  font-size: 3.75rem;
+}
+
+.p-principal {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #555555;
+}
+
+.secao-principal {
+  padding: 7.5rem 0;
+  display: flex;
+}
+
+.img1::before {
+  content: url(../imagens/img-xadrez.svg);
+  background-size: cover;
+  margin-left: 30px;
+}
+
+.img2::before {
+  content: url(../imagens/img-arvore-dinheiro.svg);
+  background-size: cover;
+  margin-left: 30px;
+}
+
+.img3::before {
+  content: url(../imagens/img-campeao-montanha.svg);
+  background-size: cover;
+  margin-left: 50px;
+}
+
+.div1 {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-items: flex-start;
+  justify-content: space-between;
+}
+
+.artigo {
+  margin-left: 53px;
+  margin-bottom: 58px;
+}
+
+.subtitulo {
+  padding-bottom: 37px;
+  font-size: 2.188rem;
+}
+
+.p-lorem {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 21px;
+  color: #000000;
+  padding-bottom: 3.313rem;
+  text-align: left;
+  height: 105px;
+  width: 724px;
+  padding-bottom: 53px;
+}
+
+.link-botao {
+  background: #419488;
+  border-radius: 62px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 13px 35px;
+}

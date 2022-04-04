@@ -1,0 +1,115 @@
+.centralizar {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 111px;
+  padding-bottom: 74px;
+}
+
+.post-h1 {
+  font-size: 50px;
+  font-weight: 500;
+  padding-bottom: 12px;
+}
+
+.data {
+  font-weight: 300;
+  font-size: 18px;
+  color: #9d9d9d;
+}
+
+.quadrado-cinza {
+  width: 1032px;
+  height: 465px;
+  background-color: #c4c4c4;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+.artigo-post {
+  width: 1032px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.subtitulo-post {
+  font-weight: 500;
+  font-size: 26px;
+  color: #419488;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.texto-post {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.juntar-cursos {
+  background: #f7f7f7;
+}
+
+.secao-info {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.artigo-info {
+  text-align: center;
+  width: 344px;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.mais-cursos {
+  font-weight: 500;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+.img-info1::before {
+  content: url(../imagens/img-xadrez.svg);
+}
+
+.img-info2::before {
+  content: url(../imagens/img-arvore-dinheiro.svg);
+}
+
+.img-info3::before {
+  content: url(../imagens/img-campeao-montanha.svg);
+}
+
+.h2-info {
+  font-size: 1.563rem;
+  text-align: center;
+  padding-bottom: 30px;
+  width: 344px;
+  text-transform: capitalize;
+}
+
+.p-info {
+  font-weight: 300;
+  font-size: 1.063rem;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+
+.link-info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background: #ff4081;
+  border-radius: 62px;
+  text-decoration: none;
+  padding: 15px 50px;
+}

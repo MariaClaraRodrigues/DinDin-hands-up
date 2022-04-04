@@ -1,0 +1,216 @@
+.div-principal {
+  padding: 0 200px 0 207px;
+  margin-bottom: 190px;
+}
+
+.imagem {
+  background: url(../imagens/ilustra-banner.png) 100% 0 no-repeat;
+  height: 511px;
+  padding: 0 501px 0 0;
+  /* width: 501px;
+  float: right; */
+}
+
+.titulo-principal {
+  font-size: 3.75rem;
+  width: 15ch;
+  margin: 125px 0 20px 0;
+}
+
+.p-Educacao {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.688rem;
+  color: #555555;
+  width: 23ch;
+  margin-bottom: 46px;
+}
+
+.saber-mais {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.688rem;
+  color: #ff4081;
+  padding: 10px 26px;
+  height: 51px;
+}
+
+.secao-info {
+  background: #f7f7f7;
+  height: 730px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.img-info1::before {
+  content: url(../imagens/img-xadrez.svg);
+}
+
+.img-info2::before {
+  content: url(../imagens/img-arvore-dinheiro.svg);
+}
+
+.img-info3::before {
+  content: url(../imagens/img-campeao-montanha.svg);
+}
+
+.artigo-info {
+  text-align: center;
+  width: 344px;
+  height: 504px;
+}
+
+.h2-info {
+  font-size: 1.563rem;
+  text-align: center;
+  padding-bottom: 30px;
+  width: 344px;
+  text-transform: capitalize;
+}
+
+.p-info {
+  font-weight: 300;
+  font-size: 1.063rem;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+
+.link-info {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background: #ff4081;
+  border-radius: 62px;
+  text-decoration: none;
+  padding: 15px 50px;
+}
+
+.secao-comentarios {
+  margin: 0 auto;
+  max-width: 1140px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 701px;
+}
+
+.div1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  font-family: "Nunito", sans-serif;
+}
+
+.titulo-comentarios {
+  font-weight: 700;
+  font-size: 2.313rem;
+  color: #009688;
+  margin-bottom: 78px;
+  text-transform: uppercase;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.caixa-comentario {
+  display: inline-block;
+  width: 50%;
+  flex-wrap: wrap;
+  margin-bottom: 87px;
+}
+
+.img-comentarios {
+  float: left;
+  margin-right: 28px;
+}
+
+.comentario {
+  text-align: left;
+  height: 70px;
+  width: 440px;
+  font-family: "Nunito";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.3rem;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.nome-autor {
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.container-aside {
+  background-color: #e5e5e5;
+  height: 730px;
+  align-items: flex-start;
+}
+
+.terceiro-titulo {
+  font-weight: 700;
+  font-size: 37px;
+  color: #009688;
+  text-transform: uppercase;
+  padding: 91px;
+}
+
+.div-aside-principal {
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-bottom: 101px; */
+}
+
+.div-aside {
+  width: 319px;
+}
+
+.quadrado-cinza {
+  background-color: #c4c4c4;
+  width: 319px;
+  height: 193px;
+}
+
+.titulo-itaque {
+  font-weight: 700;
+  font-size: 27px;
+  color: #009688;
+  padding-top: 11px;
+}
+
+.p-aside {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.div-link-aside {
+  text-align: center;
+  margin-top: 85px;
+}
+
+.link-aside {
+  border: 2px solid #ff4081;
+  box-sizing: border-box;
+  border-radius: 62px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ff4081;
+  text-decoration: none;
+  padding: 10px 41px;
+}

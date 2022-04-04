@@ -1,0 +1,71 @@
+.img {
+  background: url(../imagens/ilustra-contato.png) 100% 0 no-repeat;
+  padding: 0 444px 0 0;
+  float: right;
+}
+
+.form {
+  margin: 105px 0 90px 136px;
+  display: flex;
+}
+
+.fieldset {
+  border: none;
+  margin-right: 200px;
+}
+
+.contato {
+  font-size: 40px;
+  padding-bottom: 45px;
+}
+
+input {
+  display: block;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 493px;
+  height: 32px;
+}
+
+.nome,
+.email,
+.mensagem {
+  text-indent: 22px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+.mensagem {
+  padding-top: 10px;
+  border: 1px solid #686868;
+  border-radius: 5px;
+  width: 493px;
+  margin-bottom: 15px;
+}
+
+.botao {
+  border-radius: 50px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #fff;
+  background-color: #ff4081;
+  width: 108px;
+  padding: 5px 30px;
+  border: none;
+}
+
+.botao:hover {
+  background-color: #f71862;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: 0;
+  border: 3px solid #565454;
+}
